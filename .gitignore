@@ -1,6 +1,12 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+# Visual Studio Solution User Options
+*.suo
+
+# Build Folders
 bin
 obj
 
-# mstest test results
+# MSTest Test Results
 TestResults
+
+# ReSharper Folders and Files
+_ReSharper.*
