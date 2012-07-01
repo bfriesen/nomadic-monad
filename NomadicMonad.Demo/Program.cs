@@ -6,10 +6,16 @@ namespace RandomSkunk.NomadicMonad.Demo
     {
         static void Main()
         {
-            PublicConstructorSimpleUsage();
+            ExtensionMethodCreateSimpleUsage();
 
             Console.Write("Press any key to continue...");
             Console.ReadKey(true);
+        }
+
+        private static void ExtensionMethodCreateSimpleUsage()
+        {
+            var m = 128.ToMonad();
+            Console.WriteLine("The value of m is {0}.", m.Value);
         }
 
         private static void PublicConstructorSimpleUsage()
